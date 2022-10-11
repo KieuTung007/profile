@@ -41,7 +41,6 @@ function DefaultLayout() {
         <div className={cx('wrapper')}>
             <Sidebar onIndex={handleIndex} index={index} />
             <Content />
-            <button>{index}</button>
         </div>
     );
 }
