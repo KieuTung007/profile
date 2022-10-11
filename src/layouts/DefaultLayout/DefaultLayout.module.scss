@@ -1,0 +1,102 @@
+.wrapper {
+    --height-call-btn: 50px;
+
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.content {
+    width: 780px;
+    margin-left: calc(var(--width-sidebar) + 80px);
+    margin-top: 80px;
+}
+
+.content h1 {
+    color: rgb(4, 0, 255);
+}
+
+.info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.info-list li {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    margin-right: 16px;
+}
+
+.education {
+    margin: 40px 0;
+}
+
+// experience
+.experience h1 {
+    margin-bottom: 8px;
+}
+
+.experience div {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.time {
+    min-width: 100px;
+    color: rgb(255, 51, 0);
+}
+
+.context {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.context ul {
+    display: block;
+    margin-top: 8px;
+}
+
+// skill
+.skill {
+    padding: 40px 0;
+}
+
+.skill div {
+    display: flex;
+    margin-left: 40px;
+}
+
+.skill-item {
+    margin-right: 80px;
+}
+
+// projects
+
+.projects {
+    margin-bottom: 8px;
+}
+
+.project-item {
+    padding-bottom: 20px;
+}
+
+.link {
+    display: flex;
+}
+
+.link h4 {
+    margin-right: 8px;
+}
