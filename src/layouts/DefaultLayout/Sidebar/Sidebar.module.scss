@@ -44,3 +44,33 @@
 .page-item.active {
     opacity: 1;
 }
+
+// reposition
+/* Tablet  */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wrapper {
+        width: 200px;
+    }
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .wrapper {
+        display: block;
+        width: 100%;
+        height: var(--width-sidebar-mobile);
+    }
+
+    .container {
+        display: none;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .list-page {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}

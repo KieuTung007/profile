@@ -35,7 +35,7 @@ function DefaultLayout() {
             top: scrollToIndex,
             behavior: 'smooth',
         });
-    }, [index]);
+    }, [scrollToIndex]);
 
     return (
         <div className={cx('wrapper')}>

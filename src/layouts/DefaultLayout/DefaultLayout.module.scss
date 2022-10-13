@@ -1,6 +1,4 @@
 .wrapper {
-    --height-call-btn: 50px;
-
     display: flex;
     position: relative;
     padding-bottom: 100px;
@@ -19,12 +17,12 @@
 .info {
     display: flex;
     margin-top: 20px;
+    justify-content: space-around;
 }
 
 .info-list {
     display: flex;
     flex-direction: column;
-    margin-right: 80px;
 }
 
 .info-list li {
@@ -112,4 +110,69 @@
 
 .link h4 {
     margin-right: 8px;
+}
+
+// reposition
+
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .info-list {
+    }
+}
+
+/* Tablet  */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .content {
+        margin-left: 220px;
+        margin-right: 8px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .content {
+        width: 100%;
+        margin: var(--width-sidebar-mobile) 10px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill {
+        padding-bottom: 40px;
+    }
+
+    .skill div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-item {
+        margin-right: 0;
+        margin-top: 8px;
+    }
+
+    .experience div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .context ul {
+        display: block;
+        margin-top: 8px;
+        margin-left: 32px;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link a,
+    .link p {
+        margin-left: 16px;
+    }
 }
